@@ -1,12 +1,25 @@
 
 body {
     text-align: center;
-    background-color: rgba(9, 6, 69, 0.74);
+    background-color: hsla(244, 81%, 16%, 0.74);
 }
 .capa{
     width: 100%;
 }
-.beneficios{
+.beneficios{3
     text-align: left;
-
+    background-color: hsla(244, 81%, 16%, 0.74);
+    display: inline-block
+}
+ul{
+    display: inline-block; 
+    vertical-align: top;
+    font-size: 26px;
+    
+}
+li{
+    padding: 25px;
+}
+.foto-beneficio{
+    width: 40%;
 }
