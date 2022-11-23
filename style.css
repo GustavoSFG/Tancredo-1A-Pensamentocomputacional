@@ -1,51 +1,60 @@
-main {
+
+body {
     text-align: center;
-    background: #bfd3c1;
-    color: rgba(12, 12, 12, 0.886);
-}
-body{
-    font-size: 25px;
-}
-.foto-logo{
-margin: 15px;
-
-
-}
-
-.capa{ 
-   width: 80%; 
-
+    background-color: hsla(0, 0%, 100%, 0.74);
+    border-radius: 27px;
 }
 nav{
-    position: absolute;
-    top: 90px;
-    right: 65px;
+ position: absolute ;
+ top: 70px;
+ right:50px;
 }
-nav a:hover {
-    font-size: 34px;
+nav a{
+text-decoration: none;
+font-size: 20px;
+padding-left: 20px;
+text-transform: uppercase;
+color: rgb(0, 0, 0);
+transition: 0.2s;
+}
+nav a:hover{
     font-weight: bold;
-    text-shadow: 2px 3px 10px #9dd8a3;
-    transition: 1s;
-    font-size: 30px; 
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-left: 20px;
-    color: aqua;
+    font-size: 23px;
+    color: rgb(74, 145, 206);
 }
-.conteudo{
-    background: rgb(215, 218, 220);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgba(37, 35, 63, 0.906);
+
+.capa{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px rgba(72, 4, 181, 0.61);
 }
-.beneficios {
-    background-color: rgb(190, 224, 194);;
+.beneficios{
+    text-align: left;
+    background-color: hsla(0, 0%, 84%, 0.74);
+    display: inline-block  
+    
+
 }
 ul{
-    display: inline-block ;
+    display: inline-block; 
     vertical-align: top;
-    margin-left: 100px;
-    margin-right: 300px;
+    font-size: 20px;
+    
+}
+li{
+    padding: 25px;
+    border-radius: 25px;
 }
 .foto-beneficios{
-    width: 30%;
+    width: 40%;
+    border-radius: 25px;
+    box-shadow: 3px 3px 4px rgb(245, 245, 245);
+}
+.logo{
+    width: 15%;
+    border-radius: 25px;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
+h3{
+    text-align: left;
 }
